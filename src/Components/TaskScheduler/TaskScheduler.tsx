@@ -72,7 +72,7 @@ const TaskScheduler: React.FC = () => {
   const oneTimeTasks = tasks.filter(task => task.type === 'one-time');
 
   return (
-    <div className="bg-gray-100 rounded-lg shadow-lg p-4 sm:p-6">
+    <div className="bg-gray-100 h-screen rounded-lg shadow-lg p-4 sm:p-6">
       <Navbar />
       <h2 className="text-2xl font-bold mb-4 text-center mt-7">Task Scheduling</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
