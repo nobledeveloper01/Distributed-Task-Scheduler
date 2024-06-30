@@ -1,4 +1,26 @@
-# React + TypeScript + Vite
+# Distributed Task Scheduler
+
+This is a distributed task scheduler application with a React frontend.
+
+## Getting Started
+
+### Prerequisites
+
+- Docker
+- Node.js
+
+### Building and Running the Docker Container
+
+1. **Build the Docker Image:**
+
+   ```bash
+   docker build -t distributed-task-scheduler-frontend .
+
+
+2. **Run the Container:**
+
+```bash
+docker run -p 80:80 distributed-task-scheduler-frontend
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -27,10 +49,5 @@ export default {
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# Distributed-Task-Scheduler
-# Distributed-Task-Scheduler
-# Distributed-Task-Scheduler
-git@github.com:nobledeveloper01/Distributed-Task-Scheduler.git
-# Distributed-Task-Scheduler
-# Distributed-Task-Scheduler
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & 
+`plugin:react/jsx-runtime` to the `extends` list
